@@ -4,7 +4,7 @@ body {
 }
 
 
-/** Menu responsive **/
+/** Menu barra **/
 
 .topnav {
   background-color: #333;
@@ -30,13 +30,13 @@ body {
 
 
 .topnav a.active {
-  background-color: #04AA6D;
+
   color: white;
 }
 
 
 
-/** Fin responsive **/
+/** Fin Barra **/
 
 h1,
 h2,
@@ -44,44 +44,42 @@ h3,
 h6 {
   background-color: #333;
   color: #f2f2f2;
-  width: 10%;
+  width: 20%;
   text-align: center;
-  margin-right: 45%;
-  margin-left: 45%;
+  margin-left: 40%;
+  border-radius: 16px;
+  border: #000000;
 }
 
 
+/*INDEX */
 
 /*Datos personales */
-.Box1{
-width: 65%;
-margin-left: 290px ;
+.Box1 {
+  width: 65%;
+  margin-left: 290px;
 }
+
 .Listas {
   background-color: #333;
-  border-radius: 30px;
+  border-radius: 16px;
   color: #f2f2f2;
   border-color: black;
   font-size: small;
   text-align: left;
 }
+
 /*Fin Datos Personales */
 
 /** Imagen */
 .Box2 {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
-
-  margin-left: 100px;
-
+  margin-left: 10%;
   padding: 0;
-
   overflow: hidden;
   width: 90%;
-
   background-color: #333;
   background-size: 100%;
   border-radius: 16px;
@@ -89,23 +87,16 @@ margin-left: 290px ;
 
 #Imagen {
   margin: 0;
-
   padding: 0;
-
-  
 }
 
 #Imagen img {
-  width: 50%;
-  
+  width: 71%;
   border: 5px solid black;
- 
   box-sizing: border-box;
-  
   display: block;
-  
   margin: 0;
- 
+  border-radius: 20px;
 }
 
 /* Fin Imagen */
@@ -113,14 +104,115 @@ margin-left: 290px ;
 /* Párrafo introducción */
 .Textos {
   color: #f2f2f2;
-  font-size: smaller;
+  font-size: large;
   width: 65%;
- 
+  border-radius: 20px;
   border: 5px solid black;
- 
- padding: 0.15%;
+  padding: 0.15%;
 }
 
 /* Fin párrafo introducción */
 
+/*Imagenes del artista */
 
+.Box3 {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  padding: 0;
+  overflow: hidden;
+  width: 1300px;
+  background-color: #333;
+  background-size: 200%;
+  border-radius: 16px;
+
+}
+
+.Imagen {
+  width: 100%;
+  border-radius: 20px;
+  border: 5px solid #000000;
+}
+
+
+
+/* Fin imaenes artista */
+
+/*FIN INDEX */
+
+/*Adoles */
+
+
+.Box4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25%;
+  padding: 0;
+  overflow: hidden;
+  width: 50%;
+  border-radius: 16px;
+  background-color: #333;
+ 
+}
+.Imagen2{
+  border-radius: 5px;
+  border: 2px solid #000000;
+  width: 200px;
+}
+/*FIn Adoles */
+
+/* Adul */
+#Imagen3{
+  border-radius: 5px;
+  border: 5px solid #000000;
+  width: 280px;
+
+}
+
+.Box5{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0;
+  overflow: hidden;
+  width: 600px  ;
+  border-radius: 16px;
+  background-color: #333;
+}
+
+.Box_Conjunta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.Box6{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0;
+  overflow: hidden;
+  width: 600px  ;
+  border-radius: 16px;
+  background-color: #333;
+}
+#Subtitulo {
+    display: block;
+    color: #f2f2f2;
+    background-color: #333;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#Texto {
+    display: block;
+    color: #f2f2f2;
+    text-align: justify; 
+    padding: 10px;
+    background-color: #444;
+}
+/*Fin Adul */
